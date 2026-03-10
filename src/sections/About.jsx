@@ -5,7 +5,7 @@ import { useMediaQuery } from 'react-responsive'
 
 const About = () => {
     const isMobile = useMediaQuery({maxWidth: 853 });
-    const text = `I'm a Mechanical engineer with experience in the development and optimisation of complex mechanical systems, from concept definition to modeling, verification and testing. Strong background in 3D design and FEM validation, with hands-on collaboration with R&D teams and external partners within structured, multidisciplinary product development environments.`
+    const text = `I am a Mechanical engineer with experience in the development and optimisation of complex mechanical systems, from concept definition to modeling, verification and testing. Strong background in 3D design and FEM validation, with hands-on collaboration with R&D teams and external partners within structured, multidisciplinary product development environments.`
   return (
     <section id='about' className='max-w-7xl mx-auto px-6 mt-20'>
     <motion.p className='text-[#839cb5] sm:text-[18px] text-14-[px] uppercase tracking-wider text-center'

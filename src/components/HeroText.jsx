@@ -10,7 +10,7 @@ const HeroText = () => {
                        initial={{opacity: 0, x: -50}}
                        animate={{opacity: 1, x: 0}}
                        transition={{delay: 1 }} >
-            Hi, I'm Federico Gabrielli</motion.h1>
+            Hi, I am Federico Gabrielli</motion.h1>
             <div className="flex flex-col items-start">
               <motion.p className="text-5xl font-medium text-neutral-300"
                        initial={{opacity: 0, x: -50}}

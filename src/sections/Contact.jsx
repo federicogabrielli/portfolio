@@ -68,7 +68,7 @@ const Contact = () => {
             <div className='flex flex-col items-center w-full mb-6'> 
                 <p className='text-[#839cb5] sm:text-[18px] text-14-[px] uppercase tracking-wider'>Get in Touch</p>
                 <h2 className='text-white font-black md:text-[60px] sm:-[50px] xs:text-[40px] text-[30px]'>Contact</h2>
-                <p className='font-normal text-neutral-400'>Whether you're developing advanced mechanical systems, exploring innovative materials, or working on complex engineering challenges, I'm always open to discussing new ideas and collaborations.</p>
+                <p className='font-normal text-neutral-400'>Whether you are developing advanced mechanical systems, exploring innovative materials, or working on complex engineering challenges, I am always open to discussing new ideas and collaborations.</p>
             </div>
         <form className='w-full' onSubmit={handleSumbit}>
             <div className='mb-5'>
