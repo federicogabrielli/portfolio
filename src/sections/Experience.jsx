@@ -104,7 +104,7 @@ gsap.to('.gradient-line', {
 
 <div className="mt-10 flex flex-col items-center">
   <a
-    href="/assets/Federico_Gabrielli_CV.pdf"
+    href="assets/Federico_Gabrielli_CV.pdf"
     download
     className="group cursor-pointer"
   >
