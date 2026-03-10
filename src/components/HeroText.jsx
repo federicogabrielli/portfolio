@@ -40,7 +40,7 @@ const HeroText = () => {
                        initial={{opacity: 0, x: -50}}
                        animate={{opacity: 1, x: 0}}
                        transition={{delay: 1 }}
-                       >Hi, I'm Federico Gabrielli</motion.p>
+                       >Hi, I am Federico Gabrielli</motion.p>
           <div>
             <motion.p className="text-3xl font-medium text-neutral-300"
                        initial={{opacity: 0, x: -50}}
