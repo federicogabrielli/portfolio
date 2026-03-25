@@ -3,6 +3,8 @@ import Project from "../components/Project";
 import { myProjects } from "../components/constants";
 import { motion, useMotionValue, useSpring } from "motion/react";
 const Projects = () => {
+  
+  // Riquadro anteprima Progetto con mouse following
   const x = useMotionValue(0);
   const y = useMotionValue(0);
   const springX = useSpring(x, { damping: 10, stiffness: 50 });
@@ -11,6 +13,7 @@ const Projects = () => {
     x.set(e.clientX + 20);
     y.set(e.clientY + 20);
   };
+  
   const [preview, setPreview] = useState(null);
   return (
     <section id="projects"
@@ -33,13 +36,13 @@ const Projects = () => {
       {myProjects.map((project) => (
         <Project key={project.id} {...project} setPreview={setPreview} />
       ))}
-      {preview && (
+      {/* {preview && (
         <motion.img
           className="fixed top-0 left-0 z-50 object-cover h-56 rounded-lg shadow-lg pointer-events-none w-80"
           src={preview}
           style={{ x: springX, y: springY }}
         />
-      )}
+      )} */}
     </section>
   );
 };
