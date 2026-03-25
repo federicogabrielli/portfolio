@@ -42,7 +42,7 @@ const HeroText = () => {
                        transition={{delay: 1 }}
                        >Hi, I am Federico Gabrielli</motion.p>
           <div>
-            <motion.p className="text-3xl font-medium text-neutral-300"
+            <motion.p className="text-2xl font-medium text-neutral-300"
                        initial={{opacity: 0, x: -50}}
                        animate={{opacity: 1, x: 0}}
                        transition={{delay: 1.2 }}
@@ -51,8 +51,8 @@ const HeroText = () => {
                        initial={{opacity: 0, x: -50}}
                        animate={{opacity: 1, x: 0}}
                        transition={{delay: 1.5 }}
-                       ><FlipWords words={["Precision-driven", "High-performance", "Reliable and Efficient"]}  className="font-bold text-white text-4xl"/></motion.div>
-              <motion.p className="text-2xl font-black text-neutral-300"
+                       ><FlipWords words={["Precision-driven", "High-performance", "Reliable and Efficient"]}  className="font-bold text-white text-3xl"/></motion.div>
+              <motion.p className="text-xl font-black text-neutral-300"
                        initial={{opacity: 0, x: -50}}
                        animate={{opacity: 1, x: 0}}
                        transition={{delay: 1.8 }}

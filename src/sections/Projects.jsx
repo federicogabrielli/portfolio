@@ -36,6 +36,9 @@ const Projects = () => {
       {myProjects.map((project) => (
         <Project key={project.id} {...project} setPreview={setPreview} />
       ))}
+
+      {/* uncomment if you want to show project preview with mouse following */}
+      
       {/* {preview && (
         <motion.img
           className="fixed top-0 left-0 z-50 object-cover h-56 rounded-lg shadow-lg pointer-events-none w-80"
